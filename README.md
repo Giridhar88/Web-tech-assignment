@@ -68,8 +68,10 @@ Create a `.env` file in the `server/` directory:
 ```
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/medvault
-JWT_SECRET=your_secret_key_here
+JWT_SECRET=medvault_super_secret_key_2024
 ```
+
+> **Note:** `JWT_SECRET` is just any random string you choose — it is used by the server to sign login tokens. You do not need to obtain it from anywhere. The value above works as-is for local development.
 
 Start MongoDB if it is not already running:
 
