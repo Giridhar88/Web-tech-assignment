@@ -1,0 +1,11 @@
+{
+  "name": "medvault",
+  "private": true,
+  "scripts": {
+    "build": "cd server && npm install --production",
+    "start": "cd server && npm start"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
